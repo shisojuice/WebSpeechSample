@@ -69,7 +69,7 @@
   <h1>Web Speech Sample</h1>
   <div class="set">
     <label for="voicetext">VoiceText</label>
-    <input type="text" id="voicetext" maxlength="50" bind:value={text} />
+    <input type="text" id="voicetext" bind:value={text} />
   </div>
   <div class="set">
     <label for="voice">Voice</label>
